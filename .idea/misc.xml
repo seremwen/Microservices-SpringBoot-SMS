@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/API Gateway/pom.xml" />
         <option value="$PROJECT_DIR$/Config Server/pom.xml" />
         <option value="$PROJECT_DIR$/Discovery Server/pom.xml" />
+        <option value="$PROJECT_DIR$/Students Service/pom.xml" />
       </list>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />
