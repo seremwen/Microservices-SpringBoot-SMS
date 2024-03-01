@@ -2,11 +2,14 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="API-Gateway" />
+        <module name="Department-Service" />
+        <module name="Course-Service" />
         <module name="Discovery-Server" />
         <module name="Students-Service" />
         <module name="Config-Server" />
@@ -17,6 +20,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="API-Gateway" options="-parameters" />
       <module name="Config-Server" options="-parameters" />
+      <module name="Course-Service" options="-parameters" />
+      <module name="Department-Service" options="-parameters" />
       <module name="Discovery-Server" options="-parameters" />
       <module name="Students-Service" options="-parameters" />
     </option>
